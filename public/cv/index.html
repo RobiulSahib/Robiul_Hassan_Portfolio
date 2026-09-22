@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md. Robiul Hassan - Curriculum Vitae</title>
+  <link rel="stylesheet" href="cv.css" />
+</head>
+<body>
+
+  <!-- Floating Toolbar for Screen View -->
+  <aside class="toolbar no-print" aria-label="CV Actions">
+    <button class="btn" onclick="window.print()">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"></path><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+      Print / Save as PDF
+    </button>
+    <a href="../portfolio/index.html" class="btn btn-secondary">
+      View Portfolio
+    </a>
+  </aside>
+
+  <main class="cv-container">
+
+    <!-- ==========================================
+         PAGE 1: Profile, Education, Thesis, Skills
+         ========================================== -->
+    <article class="cv-page" id="page-1">
+      
+      <!-- Header -->
+      <header class="cv-header">
+        <h1>Md. Robiul Hassan</h1>
+        <div class="cv-contact">
+          <span>Dhaka, Bangladesh</span>
+          <span class="divider">•</span>
+          <span><a href="tel:+8801630266901">+880 1630 266901</a></span>
+          <span class="divider">•</span>
+          <span><a href="mailto:robiulhassan993@gmail.com">robiulhassan993@gmail.com</a></span>
+          <span class="divider">•</span>
+          <span><a href="https://linkedin.com/in/md-robiul-hassan-624b67283" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
+          <span class="divider">•</span>
+          <span><a href="https://github.com/RobiulSahib" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+        </div>
+      </header>
+
+      <!-- Profile Summary -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Professional Summary</h2>
+        <p class="summary-text">
+          Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, eligible for Distinction Award upon degree completion) with proven expertise in full-stack web engineering and applied machine learning research. Successfully defended undergraduate thesis developing a multimodal mental health assessment framework for rural Bangladeshi women, achieving 94.12% accuracy via multilingual text embeddings and SVM. Demonstrates strong industry software development experience across two agencies and GAOTek Inc., building high-performance web applications, RESTful microservices, and database systems. Seeking admission to a Master of Computer Science program in Australia to advance research in intelligent systems, machine learning, and scalable software architectures.
+        </p>
+      </section>
+
+      <!-- Education -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Education</h2>
+        <div class="cv-entry">
+          <div class="entry-header">
+            <span class="entry-title">Bachelor of Science in Computer Science and Engineering</span>
+            <span class="entry-date">May 2022 – August 2026</span>
+          </div>
+          <div class="entry-meta-row">
+            <span class="entry-institution">BRAC University, Dhaka, Bangladesh</span>
+            <span class="entry-location">CGPA: <strong>3.50 / 4.00</strong></span>
+          </div>
+          <div class="award-badge">
+            • Academic Honor: Distinction Award — To be awarded upon degree completion (CGPA 3.50 – 3.64 tier)
+          </div>
+          <div class="entry-meta-row" style="margin-top: 2px;">
+            <span style="font-size: 8.8pt; color: #475569;">
+              <strong>Research Interests:</strong> Applied Machine Learning, Natural Language Processing, Speech & Acoustic Analysis, Multimodal Systems, Distributed Web Engineering
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Undergraduate Thesis & Research -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Undergraduate Thesis & Research</h2>
+        <div class="cv-entry">
+          <div class="entry-header">
+            <span class="entry-title">A System to Support Mental Health of Rural Women</span>
+            <span class="entry-date">May 2025 – August 2026</span>
+          </div>
+          <div class="entry-meta-row">
+            <span class="entry-institution">Department of Computer Science and Engineering, BRAC University (Status: <strong>Defended</strong>)</span>
+          </div>
+          <div class="entry-meta-row" style="margin-bottom: 2px;">
+            <span style="font-size: 8.8pt; color: #475569;">
+              <strong>Supervisors:</strong> <a href="https://cse.bracu.ac.bd/faculty_profile/69/dr_amitabha_chakrabarty" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); text-decoration: none;">Dr. Amitabha Chakrabarty</a> (Professor/Associate Professor) & <a href="https://cse.bracu.ac.bd/faculty_profile/63/dewan_ziaul_karim" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); text-decoration: none;">Dewan Ziaul Karim</a> (Senior Lecturer)
+            </span>
+          </div>
+          <ul class="cv-bullets">
+            <li>
+              Formulated a machine-learning framework designed to support depression and anxiety risk assessment among rural Bangladeshi women utilizing both vocal speech and transcribed text features.
+            </li>
+            <li>
+              <strong>Best Depression Model:</strong> Achieved <strong>94.12% accuracy</strong>, <strong>93.77% macro-F1</strong>, and <strong>1.00 ROC-AUC</strong> using <strong>Multilingual E5 text embeddings with Linear SVM</strong>.
+            </li>
+            <li>
+              <strong>Multimodal Anxiety Fusion:</strong> Developed late-fusion architecture integrating text and speech probability predictions, attaining <strong>91.18% accuracy</strong>, <strong>94.00% balanced accuracy</strong>, and <strong>89.67% macro-F1</strong>.
+            </li>
+            <li>
+              <strong>Acoustic Feature Extraction:</strong> Extracted clinical vocal features using the <strong>eGeMAPS</strong> acoustic standard, achieving <strong>88.24% accuracy and 86.56% macro-F1</strong> with RBF SVM on voice-only recordings.
+            </li>
+            <li>
+              <strong>Pipeline Engineering:</strong> Evaluated diverse classification benchmarks (Linear/RBF SVM, Random Forest, Gradient Boosting, KNN, Logistic Regression) and resolved clinical data class imbalances via <strong>SMOTE</strong>.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Technical Skills -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-row">
+            <span class="skill-category">Programming Languages:</span>
+            <span class="skill-items">Python, JavaScript (ES6+), TypeScript, C/C++, PHP, SQL</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-category">Machine Learning & NLP:</span>
+            <span class="skill-items">Scikit-learn, Multilingual E5 Embeddings, eGeMAPS Acoustic Extraction, TF-IDF, SMOTE, Classification (SVM, RF, Gradient Boosting, KNN, Logistic Regression), Feature Engineering</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-category">Web & Full-Stack:</span>
+            <span class="skill-items">React.js, Next.js, React Native, Node.js, Express.js, RESTful APIs, oRPC, HTML5, CSS3, Tailwind CSS, Vite</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-category">Databases & Tools:</span>
+            <span class="skill-items">PostgreSQL, MongoDB, Mongoose, MySQL, Git, GitHub, Docker, Postman, VS Code, Linux</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-category">Core CS Concepts:</span>
+            <span class="skill-items">Data Structures & Algorithms, Object-Oriented Design (OOP), Software Architecture, Operating Systems, Computer Graphics, Computer Networks</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Page 1 Footer -->
+      <footer class="page-footer">
+        <span>Md. Robiul Hassan — Curriculum Vitae</span>
+        <span>Page 1 of 2</span>
+      </footer>
+
+    </article>
+
+
+    <!-- ==========================================
+         PAGE 2: Experience, Projects, Coursework
+         ========================================== -->
+    <article class="cv-page" id="page-2">
+
+      <!-- Professional Experience -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Professional Experience</h2>
+
+        <!-- AlgoVerse -->
+        <div class="cv-entry">
+          <div class="entry-header">
+            <span class="entry-title">AlgoVerse</span>
+            <span class="entry-date">February 4, 2026 – August 10, 2026</span>
+          </div>
+          <div class="entry-meta-row">
+            <span class="entry-subtitle">Senior Full Stack Web Developer</span>
+            <span class="entry-location">Dhaka, Bangladesh</span>
+          </div>
+          <ul class="cv-bullets">
+            <li>
+              Architected and engineered full-stack web and mobile applications leveraging <strong>React, Next.js, React Native, TypeScript, Node.js, and PostgreSQL/MongoDB</strong>.
+            </li>
+            <li>
+              Engineered robust RESTful backend APIs, complex database queries, and modular UI components, optimizing frontend loading times and data retrieval performance.
+            </li>
+            <li>
+              Spearheaded end-to-end development cycles across multi-client commercial platforms, handling responsive UI implementation, server-side logic, and third-party integrations.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Zentorra -->
+        <div class="cv-entry">
+          <div class="entry-header">
+            <span class="entry-title">Zentorra</span>
+            <span class="entry-date">August 7, 2025 – January 29, 2026</span>
+          </div>
+          <div class="entry-meta-row">
+            <span class="entry-subtitle">Junior Full Stack Web Developer</span>
+            <span class="entry-location">Dhaka, Bangladesh</span>
+          </div>
+          <ul class="cv-bullets">
+            <li>
+              Constructed responsive client-facing web interfaces using <strong>React</strong> and modern CSS architectures, integrating with <strong>Node.js / Express</strong> backend endpoints.
+            </li>
+            <li>
+              Designed scalable data schemas in <strong>MongoDB with Mongoose</strong>; performed rigorous API validation and integration testing using <strong>Postman</strong>.
+            </li>
+            <li>
+              Collaborated in fast-paced sprint cycles to deliver functional web applications meeting strict client performance and accessibility guidelines.
+            </li>
+          </ul>
+        </div>
+
+        <!-- GAOTek -->
+        <div class="cv-entry">
+          <div class="entry-header">
+            <span class="entry-title">GAOTek Inc.</span>
+            <span class="entry-date">January 22, 2024 – April 22, 2024</span>
+          </div>
+          <div class="entry-meta-row">
+            <span class="entry-subtitle">Web Development Intern</span>
+            <span class="entry-location">Remote</span>
+          </div>
+          <ul class="cv-bullets">
+            <li>
+              Conducted enterprise web page performance optimization and responsive user-interface redesigns for high-traffic corporate portals.
+            </li>
+            <li>
+              Implemented frontend features and bug fixes across WordPress environments utilizing <strong>HTML5, CSS3, JavaScript, and Git</strong> version control within an international distributed team.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Selected Technical & Academic Projects -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Selected Software & Academic Projects</h2>
+
+        <!-- Bright Tutor -->
+        <div class="cv-entry">
+          <div class="entry-header">
+            <div>
+              <span class="entry-title">Bright Tutor — Educational Tuition Booking Platform</span>
+              <span class="project-links">
+                [<a href="https://brighteducations.com/" target="_blank" rel="noopener noreferrer">Live Site</a> | <a href="https://github.com/RobiulSahib/bright-tutor" target="_blank" rel="noopener noreferrer">GitHub</a>]
+              </span>
+            </div>
+            <span class="entry-date">2026</span>
+          </div>
+          <div class="entry-meta-row">
+            <span class="entry-subtitle">Tech Stack: Next.js, React, TypeScript, oRPC, Tailwind CSS, PLpgSQL, Docker</span>
+          </div>
+          <ul class="cv-bullets">
+            <li>
+              Built a comprehensive tuition management ecosystem connecting guardians, students, tutors, and administrators with role-based onboarding and Google authentication.
+            </li>
+            <li>
+              Implemented type-safe end-to-end communication using oRPC, robust relational schemas in PLpgSQL, and asynchronous messaging architecture.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Smart Restaurant Management System -->
+        <div class="cv-entry">
+          <div class="entry-header">
+            <div>
+              <span class="entry-title">RestoFlow — Smart Restaurant Management & POS System</span>
+              <span class="project-links">
+                [<a href="https://smart-restaurant-management-system-three.vercel.app/" target="_blank" rel="noopener noreferrer">Live Site</a> | <a href="https://youtu.be/z9GmCX00T9g?si=jnJG_80Xr-8hMu_P" target="_blank" rel="noopener noreferrer">Video Demo</a> | <a href="https://github.com/RobiulSahib/Smart-Restaurant-Management-System" target="_blank" rel="noopener noreferrer">GitHub</a>]
+              </span>
+            </div>
+            <span class="entry-date">CSE471 Software Architecture Project</span>
+          </div>
+          <div class="entry-meta-row">
+            <span class="entry-subtitle">Tech Stack: JavaScript, React, Node.js, Express.js, WebSockets, MongoDB, Cloudinary</span>
+          </div>
+          <ul class="cv-bullets">
+            <li>
+              Designed full-stack dining platform featuring QR-code table detection, bilingual menu (English/Bangla), dietary taste filtering, and live kitchen order broadcasts via WebSockets.
+            </li>
+            <li>
+              Engineered Role-Based Access Control (RBAC) for admins, waiters, and kitchen staff alongside an integrated POS engine supporting recursive bill splitting and discount codes.
+            </li>
+          </ul>
+        </div>
+
+        <!-- SelfShop -->
+        <div class="cv-entry">
+          <div class="entry-header">
+            <div>
+              <span class="entry-title">SelfShop — Commercial E-Commerce Platform</span>
+              <span class="project-links">
+                [<a href="https://selfshop.com.bd/" target="_blank" rel="noopener noreferrer">Live Site</a> | <a href="https://github.com/RobiulSahib/selfshop" target="_blank" rel="noopener noreferrer">GitHub</a>]
+              </span>
+            </div>
+            <span class="entry-date">2025 – 2026</span>
+          </div>
+          <div class="entry-meta-row">
+            <span class="entry-subtitle">Tech Stack: PHP, MySQL, JavaScript, HTML5, CSS3, REST APIs</span>
+          </div>
+          <ul class="cv-bullets">
+            <li>
+              Engineered production commercial e-commerce platform supporting product cataloging, category management, dynamic cart operations, and responsive checkout workflows.
+            </li>
+            <li>
+              Developed administrative vendor and inventory management modules with automated order tracking and secure SQL data operations.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Snowboard Rush -->
+        <div class="cv-entry">
+          <div class="entry-header">
+            <span class="entry-title">Snowboard Rush — 3D Graphics Downhill Game</span>
+            <span class="entry-date">CSE423 Computer Graphics Project</span>
+          </div>
+          <div class="entry-meta-row">
+            <span class="entry-subtitle">Tech Stack: Python, PyOpenGL, 3D Mathematics</span>
+          </div>
+          <ul class="cv-bullets">
+            <li>
+              Engineered a 3D downhill endless-runner in Python with PyOpenGL; implemented custom perspective camera projection, collision detection, and continuous downhill velocity physics.
+            </li>
+            <li>
+              Developed procedural mountain hazards (static trees, breakable trees, boulders, flying birds), atmospheric foggy weather shaders, aerial jump/spin acrobatics, and multi-life gameplay logic.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Academic Highlights & Key Coursework -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Academic Highlights & Core Coursework</h2>
+        <div class="skills-grid">
+          <div class="skill-row">
+            <span class="skill-category">Core CS Coursework:</span>
+            <span class="skill-items">Data Structures, Algorithms, Software Architecture (CSE471), Computer Graphics (CSE423), Operating Systems, Database Management Systems, Artificial Intelligence, Computer Networks</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-category">Additional Work:</span>
+            <span class="skill-items">Bikalpo Wholesale Grocery (<a href="https://bikalpo.com/" target="_blank" style="color: var(--accent-color); text-decoration: none;">bikalpo.com</a> | <a href="https://github.com/RobiulSahib/wholesale" target="_blank" style="color: var(--accent-color); text-decoration: none;">GitHub</a>), DineEase Restaurant Reservation (<a href="https://github.com/RobiulSahib/DineEase_Restaurant_Reservation_Bokking" target="_blank" style="color: var(--accent-color); text-decoration: none;">GitHub</a>), 3D Enemy Shooter (<a href="https://github.com/RobiulSahib/3D_enemy_shooting_opengl" target="_blank" style="color: var(--accent-color); text-decoration: none;">PyOpenGL</a>), DIMS E-Commerce (<a href="https://rangpurelectrohub.com/" target="_blank" style="color: var(--accent-color); text-decoration: none;">rangpurelectrohub.com</a>), GymFit Web Portal (<a href="https://github.com/RobiulSahib/GYM-WEBSITE" target="_blank" style="color: var(--accent-color); text-decoration: none;">GitHub</a>), Rockdale Real Estate (<a href="https://github.com/RobiulSahib/Rockdale" target="_blank" style="color: var(--accent-color); text-decoration: none;">GitHub</a>), Tic-Tac-Toe (<a href="https://github.com/RobiulSahib/Tic-Tac-Toe" target="_blank" style="color: var(--accent-color); text-decoration: none;">GitHub</a>)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Page 2 Footer -->
+      <footer class="page-footer">
+        <span>Md. Robiul Hassan — Curriculum Vitae</span>
+        <span>Page 2 of 2</span>
+      </footer>
+
+    </article>
+
+  </main>
+
+</body>
+</html>

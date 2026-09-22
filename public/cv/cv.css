@@ -1,0 +1,372 @@
+/* ==========================================================================
+   ACADEMIC & PROFESSIONAL CV STYLESHEET
+   Applicant: Md. Robiul Hassan
+   Tailored for: Master's in Computer Science Applications (Australia)
+   ATS-Friendly, Semantic, Print-Optimized (2 Pages Exact)
+   ========================================================================== */
+
+:root {
+  --primary-color: #0f172a;       /* Deep slate/black */
+  --secondary-color: #1e293b;     /* Charcoal heading */
+  --accent-color: #0369a1;        /* Academic muted blue for links/accents */
+  --text-color: #334155;          /* Neutral dark slate body */
+  --muted-color: #64748b;         /* Metadata grey */
+  --rule-color: #cbd5e1;          /* Section dividing line */
+  --bg-color: #f8fafc;
+  --paper-bg: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.38;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Floating Action Toolbar (Screen only) */
+.toolbar {
+  position: fixed;
+  top: 16px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background-color: #0369a1;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: #334155;
+}
+
+.btn-secondary:hover {
+  background-color: #1e293b;
+}
+
+/* CV Document Canvas */
+.cv-container {
+  max-width: 210mm;
+  margin: 24px auto;
+  background: var(--paper-bg);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Individual A4 Page Container */
+.cv-page {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 14mm 16mm 12mm 16mm;
+  background: var(--paper-bg);
+  position: relative;
+  page-break-after: always;
+  box-sizing: border-box;
+}
+
+.cv-page:last-child {
+  page-break-after: avoid;
+}
+
+/* Screen divider between pages */
+@media screen {
+  .cv-page + .cv-page {
+    margin-top: 20px;
+    border-top: 1px dashed #cbd5e1;
+  }
+}
+
+/* ==========================================================================
+   TYPOGRAPHY & ATS COMPLIANCE
+   ========================================================================== */
+
+/* Header */
+.cv-header {
+  text-align: center;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1.5px solid var(--primary-color);
+}
+
+.cv-header h1 {
+  font-size: 19pt;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.cv-contact {
+  font-size: 8.8pt;
+  color: var(--muted-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 14px;
+}
+
+.cv-contact a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cv-contact a:hover {
+  text-decoration: underline;
+}
+
+.cv-contact span.divider {
+  color: var(--rule-color);
+}
+
+/* Section Headings */
+.cv-section {
+  margin-bottom: 11px;
+}
+
+.cv-section-title {
+  font-size: 10.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--rule-color);
+  padding-bottom: 2px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* Summary text */
+.summary-text {
+  font-size: 9.1pt;
+  line-height: 1.4;
+  color: var(--text-color);
+  text-align: justify;
+}
+
+/* Entry Layout (Jobs, Degrees, Projects) */
+.cv-entry {
+  margin-bottom: 7px;
+}
+
+.cv-entry:last-child {
+  margin-bottom: 0;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 2px;
+}
+
+.entry-title {
+  font-size: 9.6pt;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.entry-subtitle {
+  font-size: 9.1pt;
+  font-weight: 600;
+  color: #475569;
+}
+
+.entry-institution {
+  font-size: 9.1pt;
+  font-style: italic;
+  color: #475569;
+}
+
+.entry-date {
+  font-size: 8.8pt;
+  font-weight: 500;
+  color: var(--muted-color);
+  white-space: nowrap;
+}
+
+.entry-location {
+  font-size: 8.8pt;
+  color: var(--muted-color);
+}
+
+.entry-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 8.8pt;
+  color: var(--muted-color);
+  margin-bottom: 3px;
+}
+
+.award-badge {
+  font-size: 8.8pt;
+  color: #0f766e;
+  font-weight: 600;
+  margin-top: 1px;
+}
+
+/* Bullet Points */
+.cv-bullets {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 2px;
+}
+
+.cv-bullets li {
+  position: relative;
+  padding-left: 14px;
+  margin-bottom: 2.5px;
+  font-size: 8.9pt;
+  line-height: 1.34;
+  color: var(--text-color);
+}
+
+.cv-bullets li::before {
+  content: "▪";
+  position: absolute;
+  left: 2px;
+  top: -0.5px;
+  color: var(--accent-color);
+  font-size: 9pt;
+}
+
+.cv-bullets strong {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+/* Skills Table / Grid */
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.skill-row {
+  display: flex;
+  font-size: 8.9pt;
+  line-height: 1.34;
+}
+
+.skill-category {
+  width: 175px;
+  flex-shrink: 0;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.skill-items {
+  flex-grow: 1;
+  color: var(--text-color);
+}
+
+/* Links inside entries */
+.project-links {
+  font-weight: normal;
+  font-size: 8.4pt;
+  margin-left: 6px;
+}
+
+.project-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+/* Page Number in Footer */
+.page-footer {
+  position: absolute;
+  bottom: 8mm;
+  left: 16mm;
+  right: 16mm;
+  display: flex;
+  justify-content: space-between;
+  font-size: 8pt;
+  color: #94a3b8;
+  border-top: 0.5px solid #e2e8f0;
+  padding-top: 3px;
+}
+
+/* ==========================================================================
+   PRINT MEDIA RULES (Strict 2-Page A4 Guarantee)
+   ========================================================================== */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 0; /* Let .cv-page padding handle margins */
+  }
+
+  body {
+    background: transparent !important;
+    font-size: 9.3pt;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .cv-container {
+    box-shadow: none !important;
+    margin: 0 !important;
+    width: 210mm !important;
+    max-width: 210mm !important;
+  }
+
+  .cv-page {
+    width: 210mm !important;
+    height: 297mm !important;
+    max-height: 297mm !important;
+    min-height: 297mm !important;
+    padding: 13mm 15mm 11mm 15mm !important;
+    page-break-after: always !important;
+    page-break-inside: avoid !important;
+    overflow: hidden !important;
+  }
+
+  .cv-page:last-child {
+    page-break-after: avoid !important;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: var(--primary-color) !important;
+  }
+
+  .cv-contact a {
+    color: var(--accent-color) !important;
+  }
+}
