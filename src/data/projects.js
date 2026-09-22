@@ -120,7 +120,7 @@ export const projectsData = [
       "Shared UI components, config packages, and strict TypeScript types across workspaces"
     ],
     liveUrl: "https://bikalpo.com/",
-    githubUrl: "https://github.com/RobiulSahib/wholesale",
+    githubUrl: "https://github.com/RobiulSahib/bikalpo",
     demoVideoUrl: null
   },
   {
