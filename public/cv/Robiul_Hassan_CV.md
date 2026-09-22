@@ -67,7 +67,7 @@ Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, 
 ## SELECTED SOFTWARE & ACADEMIC PROJECTS
 
 ### Bright Tutor — Educational Tuition Booking Platform
-*Tech Stack: Next.js, React, TypeScript, oRPC, Tailwind CSS, PLpgSQL, Docker* | [Live Site](https://brighteducations.com/) | [GitHub](https://github.com/RobiulSahib/bright-tutor)
+*Tech Stack: Next.js, React, TypeScript, oRPC, Tailwind CSS, PLpgSQL, Docker* | [Live Site](https://brighteducations.com/) | [GitHub](https://github.com/RobiulSahib/Bright_Tutor)
 - Built a comprehensive tuition management ecosystem connecting guardians, students, tutors, and administrators with role-based onboarding and Google authentication.
 - Implemented type-safe end-to-end communication using oRPC, robust relational schemas in PLpgSQL, and asynchronous messaging architecture.
 
@@ -77,7 +77,7 @@ Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, 
 - Engineered Role-Based Access Control (RBAC) for admins, waiters, and kitchen staff alongside an integrated POS engine supporting recursive bill splitting and discount codes.
 
 ### SelfShop — Commercial E-Commerce Platform
-*Tech Stack: PHP, MySQL, JavaScript, HTML5, CSS3, REST APIs* | [Live Site](https://selfshop.com.bd/) | [GitHub](https://github.com/RobiulSahib/selfshop)
+*Tech Stack: PHP, MySQL, JavaScript, HTML5, CSS3, REST APIs* | [Live Site](https://selfshop.com.bd/) | [GitHub](https://github.com/RobiulSahib/Selfshop)
 - Engineered production commercial e-commerce platform supporting product cataloging, category management, dynamic cart operations, and responsive checkout workflows.
 - Developed administrative vendor and inventory management modules with automated order tracking and secure SQL data operations.
 

@@ -59,7 +59,7 @@ export const projectsData = [
       "Optimized for high-speed page loading across mobile devices"
     ],
     liveUrl: "https://selfshop.com.bd/",
-    githubUrl: "https://github.com/RobiulSahib/selfshop",
+    githubUrl: "https://github.com/RobiulSahib/Selfshop",
     demoVideoUrl: null
   },
   {
