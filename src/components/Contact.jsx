@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText, Github, Linkedin, Mail, MapPin, Phone, Send } from 'lucide-react';
+import { Download, FileText, Github, Linkedin, Mail, MapPin, Phone, Send } from 'lucide-react';
 import { profileData } from '../data/profile';
 
 export default function Contact() {
@@ -95,13 +95,23 @@ export default function Contact() {
                 <span>Send Direct Email</span>
               </a>
               <a
+                href={profileData.cvPdfPath}
+                download="Md_Robiul_Hassan_CV.pdf"
+                className="btn btn-secondary btn-block"
+                title="Download verified PDF with active clickable links"
+              >
+                <Download size={16} />
+                <span>Download Academic CV (PDF)</span>
+              </a>
+              <a
                 href={profileData.cvPath}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-secondary btn-block"
+                className="btn btn-outline btn-block"
+                style={{ marginTop: '8px' }}
               >
                 <FileText size={16} />
-                <span>Open Printable 2-Page CV (PDF)</span>
+                <span>View Web 2-Page CV</span>
               </a>
             </div>
           </div>

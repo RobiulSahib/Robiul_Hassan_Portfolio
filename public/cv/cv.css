@@ -38,15 +38,23 @@ body {
   top: 16px;
   right: 20px;
   display: flex;
-  gap: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
   z-index: 1000;
+}
+
+.toolbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px;
+  padding: 8px 14px;
   font-size: 13px;
   font-weight: 600;
   color: #ffffff;
@@ -65,11 +73,40 @@ body {
 }
 
 .btn-secondary {
-  background-color: #334155;
+  background-color: #1e293b;
+  color: #ffffff;
 }
 
 .btn-secondary:hover {
-  background-color: #1e293b;
+  background-color: #0f172a;
+}
+
+.btn-ghost {
+  background-color: #ffffff;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+}
+
+.btn-ghost:hover {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+.toolbar-tip {
+  background-color: rgba(15, 23, 42, 0.94);
+  color: #e2e8f0;
+  font-size: 11px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  max-width: 380px;
+  text-align: right;
+  line-height: 1.35;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.toolbar-tip strong {
+  color: #38bdf8;
 }
 
 /* CV Document Canvas */
@@ -135,12 +172,13 @@ body {
 
 .cv-contact a {
   color: var(--accent-color);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 2.5px;
   font-weight: 500;
 }
 
 .cv-contact a:hover {
-  text-decoration: underline;
+  color: #0284c7;
 }
 
 .cv-contact span.divider {
@@ -293,18 +331,22 @@ body {
 
 /* Links inside entries */
 .project-links {
-  font-weight: normal;
-  font-size: 8.4pt;
+  font-weight: 500;
+  font-size: 8.5pt;
   margin-left: 6px;
+  white-space: nowrap;
 }
 
 .project-links a {
   color: var(--accent-color);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
 }
 
 .project-links a:hover {
-  text-decoration: underline;
+  color: #0284c7;
+  text-decoration-thickness: 1.5px;
 }
 
 /* Page Number in Footer */
@@ -322,7 +364,7 @@ body {
 }
 
 /* ==========================================================================
-   PRINT MEDIA RULES (Strict 2-Page A4 Guarantee)
+   PRINT MEDIA RULES (Strict 2-Page A4 Guarantee with Active Clickable Links)
    ========================================================================== */
 @media print {
   @page {
@@ -330,9 +372,14 @@ body {
     margin: 0; /* Let .cv-page padding handle margins */
   }
 
+  *, *::before, *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
   body {
     background: transparent !important;
-    font-size: 9.3pt;
+    font-size: 9.1pt;
   }
 
   .no-print {
@@ -351,22 +398,51 @@ body {
     height: 297mm !important;
     max-height: 297mm !important;
     min-height: 297mm !important;
-    padding: 13mm 15mm 11mm 15mm !important;
+    padding: 11mm 15mm 10mm 15mm !important;
     page-break-after: always !important;
     page-break-inside: avoid !important;
     overflow: hidden !important;
+    box-sizing: border-box !important;
   }
 
   .cv-page:last-child {
     page-break-after: avoid !important;
   }
 
+  .cv-section {
+    margin-bottom: 8px !important;
+  }
+
+  .cv-entry {
+    margin-bottom: 5px !important;
+  }
+
+  .cv-bullets li {
+    margin-bottom: 2px !important;
+    line-height: 1.31 !important;
+  }
+
+  /* Keep all hyperlinks distinct, underlined, and clickable in PDF */
   a {
-    text-decoration: none !important;
-    color: var(--primary-color) !important;
+    color: #0369a1 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 2px !important;
+    font-weight: 600 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   .cv-contact a {
-    color: var(--accent-color) !important;
+    color: #0369a1 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 2px !important;
+    font-weight: 600 !important;
+  }
+
+  .project-links a {
+    color: #0369a1 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 2px !important;
+    font-weight: 600 !important;
   }
 }

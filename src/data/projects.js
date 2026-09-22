@@ -17,7 +17,7 @@ export const projectsData = [
       "Administrative dashboard for approval and tutor lifecycle control"
     ],
     liveUrl: "https://brighteducations.com/",
-    githubUrl: "https://github.com/RobiulSahib/bright-tutor",
+    githubUrl: "https://github.com/RobiulSahib/Bright_Tutor",
     demoVideoUrl: null
   },
   {

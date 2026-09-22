@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Award, ExternalLink, FileText, Github, Linkedin, Mail, MapPin } from 'lucide-react';
+import { ArrowDown, Award, Download, ExternalLink, FileText, Github, Linkedin, Mail, MapPin } from 'lucide-react';
 import { profileData } from '../data/profile';
 
 export default function Hero() {
@@ -53,19 +53,25 @@ export default function Hero() {
         {/* Action Buttons */}
         <div className="hero-cta-group">
           <a
+            href={profileData.cvPdfPath}
+            download="Md_Robiul_Hassan_CV.pdf"
+            className="btn btn-primary"
+            title="Download verified PDF with 100% active clickable links"
+          >
+            <Download size={18} />
+            <span>Download CV (PDF)</span>
+          </a>
+          <a
             href={profileData.cvPath}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-primary"
+            className="btn btn-secondary"
           >
             <FileText size={18} />
-            <span>View 2-Page CV (Print/PDF)</span>
+            <span>View 2-Page CV</span>
           </a>
-          <a href="#research" className="btn btn-secondary">
-            <span>Thesis Research (94.12% Acc)</span>
-          </a>
-          <a href="#projects" className="btn btn-outline">
-            <span>Selected Projects</span>
+          <a href="#research" className="btn btn-outline">
+            <span>Thesis (94.12% Acc)</span>
           </a>
         </div>
 

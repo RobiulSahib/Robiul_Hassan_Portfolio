@@ -10,13 +10,22 @@
 
   <!-- Floating Toolbar for Screen View -->
   <aside class="toolbar no-print" aria-label="CV Actions">
-    <button class="btn" onclick="window.print()">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"></path><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
-      Print / Save as PDF
-    </button>
-    <a href="../portfolio/index.html" class="btn btn-secondary">
-      View Portfolio
-    </a>
+    <div class="toolbar-buttons">
+      <a href="Md_Robiul_Hassan_CV.pdf" download="Md_Robiul_Hassan_CV.pdf" class="btn" title="Download pre-compiled PDF with 100% active clickable links">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        Download PDF
+      </a>
+      <button class="btn btn-secondary" onclick="window.print()" title="Print via browser. Select Destination: 'Save as PDF' to preserve links">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"></path><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        Print / Save as PDF
+      </button>
+      <a href="../portfolio/index.html" class="btn btn-ghost">
+        View Portfolio
+      </a>
+    </div>
+    <div class="toolbar-tip">
+      💡 Tip: Click <strong>Download PDF</strong> for guaranteed clickable links. When using browser Print (Ctrl+P), select Destination: <strong>Save as PDF</strong> (not <em>Microsoft Print to PDF</em>).
+    </div>
   </aside>
 
   <main class="cv-container">
@@ -229,9 +238,9 @@
         <div class="cv-entry">
           <div class="entry-header">
             <div>
-              <span class="entry-title">Bright Tutor — Educational Tuition Booking Platform</span>
+              <span class="entry-title">Bright Tutor — Tuition Booking Platform</span>
               <span class="project-links">
-                [<a href="https://brighteducations.com/" target="_blank" rel="noopener noreferrer">Live Site</a> | <a href="https://github.com/RobiulSahib/bright-tutor" target="_blank" rel="noopener noreferrer">GitHub</a>]
+                [<a href="https://brighteducations.com/" target="_blank" rel="noopener noreferrer">Live Site</a> | <a href="https://github.com/RobiulSahib/Bright_Tutor" target="_blank" rel="noopener noreferrer">GitHub</a>]
               </span>
             </div>
             <span class="entry-date">2026</span>
@@ -253,12 +262,12 @@
         <div class="cv-entry">
           <div class="entry-header">
             <div>
-              <span class="entry-title">RestoFlow — Smart Restaurant Management & POS System</span>
+              <span class="entry-title">RestoFlow — Restaurant Management & POS</span>
               <span class="project-links">
                 [<a href="https://smart-restaurant-management-system-three.vercel.app/" target="_blank" rel="noopener noreferrer">Live Site</a> | <a href="https://youtu.be/z9GmCX00T9g?si=jnJG_80Xr-8hMu_P" target="_blank" rel="noopener noreferrer">Video Demo</a> | <a href="https://github.com/RobiulSahib/Smart-Restaurant-Management-System" target="_blank" rel="noopener noreferrer">GitHub</a>]
               </span>
             </div>
-            <span class="entry-date">CSE471 Software Architecture Project</span>
+            <span class="entry-date">CSE471 Architecture Project</span>
           </div>
           <div class="entry-meta-row">
             <span class="entry-subtitle">Tech Stack: JavaScript, React, Node.js, Express.js, WebSockets, MongoDB, Cloudinary</span>

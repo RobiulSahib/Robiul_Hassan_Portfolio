@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FileText, Github, Linkedin, Mail, Menu, X } from 'lucide-react';
+import { Download, FileText, Github, Linkedin, Mail, Menu, X } from 'lucide-react';
 import { profileData } from '../data/profile';
 
 export default function Navbar() {
@@ -64,13 +64,13 @@ export default function Navbar() {
             <Linkedin size={18} />
           </a>
           <a
-            href={profileData.cvPath}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={profileData.cvPdfPath}
+            download="Md_Robiul_Hassan_CV.pdf"
             className="btn btn-outline btn-sm"
+            title="Download verified PDF with active clickable links"
           >
-            <FileText size={15} />
-            <span>2-Page CV</span>
+            <Download size={14} />
+            <span>CV (PDF)</span>
           </a>
         </div>
 
@@ -102,13 +102,22 @@ export default function Navbar() {
             <div className="mobile-nav-divider"></div>
             <div className="mobile-actions">
               <a
+                href={profileData.cvPdfPath}
+                download="Md_Robiul_Hassan_CV.pdf"
+                className="btn btn-primary btn-block"
+              >
+                <Download size={16} />
+                <span>Download CV (PDF)</span>
+              </a>
+              <a
                 href={profileData.cvPath}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-primary btn-block"
+                className="btn btn-outline btn-block"
+                style={{ marginTop: '8px' }}
               >
                 <FileText size={16} />
-                <span>View Master's CV (PDF)</span>
+                <span>View Web CV</span>
               </a>
             </div>
           </div>

@@ -8,6 +8,7 @@ export const profileData = {
   github: "https://github.com/RobiulSahib",
   linkedin: "https://www.linkedin.com/in/md-robiul-hassan-624b67283",
   cvPath: "/cv/index.html",
+  cvPdfPath: "/cv/Md_Robiul_Hassan_CV.pdf",
   summary: `I am a Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, eligible for Distinction Award upon degree completion) with a strong foundation in full-stack web application development and applied machine learning research. I have successfully defended my undergraduate thesis on multimodal mental-health assessment for rural Bangladeshi women, achieving 94.12% accuracy using multilingual text embeddings and SVM. Alongside academic research, I have engineered commercial software across two software agencies and completed a web development internship at GAOTek Inc. I am actively seeking admission to Master's programs in Computer Science in Australia to further investigate intelligent systems, acoustic processing, and scalable distributed architectures.`,
   education: {
     degree: "Bachelor of Science in Computer Science and Engineering",
