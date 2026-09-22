@@ -1,0 +1,15 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/cv/:match*",
+      "destination": "/cv/:match*"
+    },
+    {
+      "source": "/((?!cv).*)*",
+      "destination": "/index.html"
+    }
+  ]
+}
