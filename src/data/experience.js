@@ -1,7 +1,7 @@
 export const experienceData = [
   {
     company: "AlgoVerse",
-    role: "Senior Full Stack Web Developer",
+    role: "Full Stack Web Developer",
     location: "Dhaka, Bangladesh",
     type: "Agency / Client Engineering",
     period: "February 4, 2026 – August 10, 2026",

@@ -45,7 +45,7 @@ Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, 
 
 ## PROFESSIONAL EXPERIENCE
 
-### Senior Full Stack Web Developer — AlgoVerse
+### Full Stack Web Developer — AlgoVerse
 *Dhaka, Bangladesh* | *February 4, 2026 – August 10, 2026*
 - Architected and engineered full-stack web and mobile applications leveraging React, Next.js, React Native, TypeScript, Node.js, and PostgreSQL/MongoDB.
 - Engineered robust RESTful backend APIs, complex database queries, and modular UI components, optimizing frontend loading times and data retrieval performance.
