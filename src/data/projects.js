@@ -104,6 +104,26 @@ export const projectsData = [
     demoVideoUrl: null
   },
   {
+    id: "wholesale-b2b",
+    title: "Wholesale — B2B E-Commerce & Tiered Bulk Pricing Monorepo",
+    category: "Client / Production",
+    featured: true,
+    shortDescription: "Turborepo monorepo wholesale e-commerce platform engineered with Next.js 15, Prisma ORM, and dynamic bulk tiered pricing.",
+    problem: "B2B wholesale merchants require differentiated wholesale vs. retail pricing tiers, dynamic minimum order quantities, variant-level volume discounts, and robust admin product catalog controls.",
+    solution: "Built a high-performance Next.js full-stack platform in a Turborepo monorepo with Prisma ORM, implementing dynamic bulk pricing matrices, wholesaler role detection, and responsive storefront checkout.",
+    contribution: "Architected bulk pricing schema and calculation APIs, wholesaler role-based pricing UI, admin product visibility actions, and order summary components.",
+    technologies: ["Turborepo", "Next.js", "React", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
+    features: [
+      "Turborepo monorepo structure with Next.js App Router and TypeScript",
+      "Dynamic bulk pricing rules with tiered minimum/maximum quantity pricing",
+      "Wholesaler role authentication and specialized pricing presentation",
+      "Administrative dashboard for product catalog visibility and order checkout processing"
+    ],
+    liveUrl: null,
+    githubUrl: "https://github.com/RobiulSahib/wholesale",
+    demoVideoUrl: null
+  },
+  {
     id: "bikalpo-wholesale",
     title: "Bikalpo — Wholesale Grocery E-Commerce Platform",
     category: "Client / Production",
