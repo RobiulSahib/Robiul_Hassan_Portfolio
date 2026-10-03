@@ -83,7 +83,7 @@ export default function Contact() {
             <div className="action-card-badge">Academic Application Notice</div>
             <h3 className="action-card-title">Prospective Postgraduate Study</h3>
             <p className="action-card-text">
-              I am actively preparing applications for Master of Computer Science programs in Australia. Admissions committees, potential research supervisors, or collaborators are welcome to review my complete 2-page academic CV or initiate contact directly.
+              I am actively preparing applications for Master of Computer Science programs at top-ranked universities. Admissions committees, potential research supervisors, or collaborators are welcome to review my complete 2-page academic CV or initiate contact directly.
             </p>
 
             <div className="action-card-buttons">

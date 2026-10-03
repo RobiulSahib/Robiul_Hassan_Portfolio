@@ -1,7 +1,7 @@
 /* ==========================================================================
    ACADEMIC & PROFESSIONAL CV STYLESHEET
    Applicant: Md. Robiul Hassan
-   Tailored for: Master's in Computer Science Applications (Australia)
+   Tailored for: Master's in Computer Science Applications (Top-Ranked Universities)
    ATS-Friendly, Semantic, Print-Optimized (2 Pages Exact)
    ========================================================================== */
 
@@ -379,7 +379,7 @@ body {
 
   body {
     background: transparent !important;
-    font-size: 9.1pt;
+    font-size: 8.9pt;
   }
 
   .no-print {
@@ -398,7 +398,7 @@ body {
     height: 297mm !important;
     max-height: 297mm !important;
     min-height: 297mm !important;
-    padding: 11mm 15mm 10mm 15mm !important;
+    padding: 9.5mm 14mm 8mm 14mm !important;
     page-break-after: always !important;
     page-break-inside: avoid !important;
     overflow: hidden !important;
@@ -409,17 +409,55 @@ body {
     page-break-after: avoid !important;
   }
 
+  .cv-header {
+    margin-bottom: 7px !important;
+    padding-bottom: 4px !important;
+  }
+
+  .cv-header h1 {
+    font-size: 18pt !important;
+    margin-bottom: 3px !important;
+  }
+
   .cv-section {
-    margin-bottom: 8px !important;
+    margin-bottom: 6px !important;
+  }
+
+  .cv-section-title {
+    margin-bottom: 4px !important;
+    padding-bottom: 1.5px !important;
+    font-size: 10pt !important;
+  }
+
+  .summary-text {
+    font-size: 8.7pt !important;
+    line-height: 1.33 !important;
   }
 
   .cv-entry {
-    margin-bottom: 5px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .entry-title {
+    font-size: 9.3pt !important;
   }
 
   .cv-bullets li {
-    margin-bottom: 2px !important;
-    line-height: 1.31 !important;
+    margin-bottom: 1.5px !important;
+    line-height: 1.28 !important;
+    font-size: 8.6pt !important;
+  }
+
+  .skill-row {
+    font-size: 8.6pt !important;
+    line-height: 1.28 !important;
+  }
+
+  .page-footer {
+    bottom: 6mm !important;
+    left: 14mm !important;
+    right: 14mm !important;
+    font-size: 7.8pt !important;
   }
 
   /* Keep all hyperlinks distinct, underlined, and clickable in PDF */

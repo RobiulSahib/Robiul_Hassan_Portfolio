@@ -8,11 +8,14 @@ I enjoy building practical software solutions, learning new technologies, and wo
 
 ### 🎓 Education
 
-**BRAC University**
-Bachelor of Science in Computer Science
-CGPA: **3.50 / 4.00**
+**BRAC University**  
+Bachelor of Science in Computer Science and Engineering  
+CGPA: **3.50 / 4.00**  
+**Distinction Award** — To be awarded upon degree completion  
 
-**Distinction Award** — To be awarded upon degree completion
+**Udayan Uchcha Madhyamik Bidyalaya**  
+Higher Secondary Certificate (HSC) — Science (2019 – 2021)  
+GPA: **4.83 / 5.00** (Dhaka Board)
 
 ### 💻 Areas of Interest
 

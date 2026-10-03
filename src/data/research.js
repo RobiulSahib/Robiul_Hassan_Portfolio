@@ -7,7 +7,7 @@ export const researchData = {
     {
       name: "Dr. Amitabha Chakrabarty",
       title: "Supervisor",
-      role: "Professor / Associate Professor",
+      role: "Professor",
       url: "https://cse.bracu.ac.bd/faculty_profile/69/dr_amitabha_chakrabarty"
     },
     {

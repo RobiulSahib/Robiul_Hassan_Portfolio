@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="hero-badge-row">
           <span className="hero-status-pill">
             <span className="status-dot"></span>
-            Prospective Master of Computer Science Student (Australia)
+            Prospective Master of Computer Science Student (Top-Ranked Universities)
           </span>
           <span className="hero-status-pill distinction-pill">
             <Award size={14} />

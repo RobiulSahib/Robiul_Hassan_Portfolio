@@ -20,7 +20,7 @@ export default function About() {
           {/* Main Bio Content */}
           <div className="about-content">
             <h3 className="about-heading">
-              Preparing for Master's Studies in Computer Science in Australia
+              Preparing for Master's Studies in Computer Science at Top-Ranked Universities
             </h3>
             <p className="about-paragraph">
               {profileData.summary}

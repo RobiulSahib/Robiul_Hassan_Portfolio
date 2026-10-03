@@ -69,6 +69,37 @@ export default function Education() {
           </div>
         </div>
 
+        {/* Higher Secondary Certificate (HSC) */}
+        {profileData.secondaryEducation && (
+          <div className="education-card" style={{ marginTop: '24px' }}>
+            <div className="edu-header">
+              <div className="edu-icon-box">
+                <GraduationCap size={28} />
+              </div>
+              <div className="edu-titles">
+                <h3 className="edu-degree">{profileData.secondaryEducation.degree}</h3>
+                <p className="edu-inst">
+                  {profileData.secondaryEducation.institution} • {profileData.secondaryEducation.board}
+                </p>
+              </div>
+              <div className="edu-dates">
+                <Calendar size={15} />
+                <span>{profileData.secondaryEducation.period}</span>
+              </div>
+            </div>
+
+            <div className="edu-body">
+              <div className="edu-metrics-row">
+                <div className="edu-cgpa-box">
+                  <span className="edu-cgpa-label">Grade Point Average (GPA)</span>
+                  <span className="edu-cgpa-val">{profileData.secondaryEducation.gpa}</span>
+                  <span className="edu-cgpa-scale">Grading Scale: 5.00 Max (Science Group)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
       </div>
     </section>
   );

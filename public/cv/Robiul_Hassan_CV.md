@@ -5,7 +5,7 @@
 ---
 
 ## PROFESSIONAL SUMMARY
-Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, eligible for Distinction Award upon degree completion) with proven expertise in full-stack web engineering and applied machine learning research. Successfully defended undergraduate thesis developing a multimodal mental health assessment framework for rural Bangladeshi women, achieving 94.12% accuracy via multilingual text embeddings and SVM. Demonstrates strong industry software development experience across two agencies and GAOTek Inc., building high-performance web applications, RESTful microservices, and database systems. Seeking admission to a Master of Computer Science program in Australia to advance research in intelligent systems, machine learning, and scalable software architectures.
+Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, eligible for Distinction Award upon degree completion) with proven expertise in full-stack web engineering and applied machine learning research. Successfully defended undergraduate thesis developing a multimodal mental health assessment framework for rural Bangladeshi women, achieving 94.12% accuracy via multilingual text embeddings and SVM. Demonstrates strong industry software development experience across two agencies and GAOTek Inc., building high-performance web applications, RESTful microservices, and database systems. Seeking admission to a Master of Computer Science program at top-ranked universities to advance research in intelligent systems, machine learning, and scalable software architectures.
 
 ---
 
@@ -18,13 +18,19 @@ Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, 
 - **Academic Honors:** Distinction Award — To be awarded upon degree completion (CGPA 3.50 – 3.64 tier)  
 - **Research Interests:** Applied Machine Learning, Natural Language Processing, Speech & Acoustic Analysis, Multimodal Systems, Distributed Web Engineering  
 
+### Higher Secondary Certificate (HSC) — Science
+**Udayan Uchcha Madhyamik Bidyalaya, Dhaka, Bangladesh**  
+*2019 – 2021*  
+- **Board:** Board of Intermediate and Secondary Education, Dhaka  
+- **GPA:** 4.83 / 5.00  
+
 ---
 
 ## UNDERGRADUATE THESIS & RESEARCH
 
 ### A System to Support Mental Health of Rural Women (Status: Defended)
 **Department of Computer Science and Engineering, BRAC University** | *May 2025 – August 2026*  
-**Supervisors:** [Dr. Amitabha Chakrabarty](https://cse.bracu.ac.bd/faculty_profile/69/dr_amitabha_chakrabarty) (Professor/Associate Professor) & [Dewan Ziaul Karim](https://cse.bracu.ac.bd/faculty_profile/63/dewan_ziaul_karim) (Senior Lecturer)  
+**Supervisors:** [Dr. Amitabha Chakrabarty](https://cse.bracu.ac.bd/faculty_profile/69/dr_amitabha_chakrabarty) (Professor) & [Dewan Ziaul Karim](https://cse.bracu.ac.bd/faculty_profile/63/dewan_ziaul_karim) (Senior Lecturer)  
 - Formulated a machine-learning framework designed to support depression and anxiety risk assessment among rural Bangladeshi women utilizing both vocal speech and transcribed text features.
 - **Best Depression Model:** Achieved **94.12% accuracy**, **93.77% macro-F1**, and **1.00 ROC-AUC** using **Multilingual E5 text embeddings with Linear SVM**.
 - **Multimodal Anxiety Fusion:** Developed late-fusion architecture integrating text and speech probability predictions, attaining **91.18% accuracy**, **94.00% balanced accuracy**, and **89.67% macro-F1**.
@@ -96,3 +102,14 @@ Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, 
 
 - **Core CS Coursework:** Data Structures, Algorithms, Software Architecture (CSE471), Computer Graphics (CSE423), Operating Systems, Database Management Systems, Artificial Intelligence, Computer Networks.
 - **Additional Software Projects:** Wholesale B2B Platform ([GitHub](https://github.com/RobiulSahib/wholesale)), Bikalpo Wholesale Grocery ([bikalpo.com](https://bikalpo.com/) | [GitHub](https://github.com/RobiulSahib/bikalpo)), DineEase Restaurant Reservation ([GitHub](https://github.com/RobiulSahib/DineEase_Restaurant_Reservation_Bokking)), 3D Enemy Shooter ([PyOpenGL](https://github.com/RobiulSahib/3D_enemy_shooting_opengl)), DIMS E-Commerce ([rangpurelectrohub.com](https://rangpurelectrohub.com/) | [GitHub](https://github.com/RobiulSahib/DIMS)), GymFit Web Portal ([GitHub](https://github.com/RobiulSahib/GYM-WEBSITE)), Rockdale Real Estate ([GitHub](https://github.com/RobiulSahib/Rockdale)), Tic-Tac-Toe Game ([GitHub](https://github.com/RobiulSahib/Tic-Tac-Toe)).
+
+---
+
+## ACADEMIC REFERENCE
+
+### Dr. Amitabha Chakrabarty
+**Professor, Department of Computer Science and Engineering**  
+BRAC University, Dhaka, Bangladesh  
+- **Role:** Undergraduate Thesis Supervisor  
+- **Email:** [amitabha@bracu.ac.bd](mailto:amitabha@bracu.ac.bd)  
+- **Faculty Profile:** [cse.bracu.ac.bd/faculty_profile/69/dr_amitabha_chakrabarty](https://cse.bracu.ac.bd/faculty_profile/69/dr_amitabha_chakrabarty)
