@@ -5,7 +5,7 @@
 ---
 
 ## PROFESSIONAL SUMMARY
-Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, eligible for Distinction Award upon degree completion) with proven expertise in full-stack web engineering and applied machine learning research. Successfully defended undergraduate thesis developing a multimodal mental health assessment framework for rural Bangladeshi women, achieving 94.12% accuracy via multilingual text embeddings and SVM. Demonstrates strong industry software development experience across two agencies and GAOTek Inc., building high-performance web applications, RESTful microservices, and database systems. Seeking admission to a Master of Computer Science program at top-ranked universities to advance research in intelligent systems, machine learning, and scalable software architectures.
+Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, eligible for Distinction Award upon degree completion) with proven expertise in full-stack web engineering and applied machine learning research. Successfully defended undergraduate thesis developing a multimodal mental health assessment framework for rural Bangladeshi women, achieving 94.12% accuracy via multilingual text embeddings and SVM. Demonstrates industry experience through a web development internship at GAOTek Inc. and multiple production-grade full-stack software projects, building high-performance web applications, RESTful APIs, and database systems. Seeking admission to a Master of Computer Science program at top-ranked universities to advance research in intelligent systems, machine learning, and scalable software architectures.
 
 ---
 
@@ -24,11 +24,26 @@ Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, 
 - **Board:** Board of Intermediate and Secondary Education, Dhaka  
 - **GPA:** 4.83 / 5.00  
 
+### Secondary School Certificate (SSC) — Science
+**Bright High School, Dhaka, Bangladesh**  
+*2017 – 2019*  
+- **Board:** Board of Intermediate and Secondary Education, Dhaka  
+- **GPA:** 5.00 / 5.00  
+
+---
+
+## STANDARDIZED TEST SCORES
+
+### IELTS Academic
+*Test Date: October 7, 2026 | Result Date: October 8, 2026*  
+- **Overall Band Score:** 7.0  
+- **Listening:** 8.5 | **Reading:** 6.5 | **Writing:** 6.0 | **Speaking:** 6.0  
+
 ---
 
 ## UNDERGRADUATE THESIS & RESEARCH
 
-### A System to Support Mental Health of Rural Women (Status: Defended)
+### A Multimodal System to Support the Mental Health of Rural Woman (Status: Defended)
 **Department of Computer Science and Engineering, BRAC University** | *May 2025 – August 2026*  
 **Supervisors:** [Dr. Amitabha Chakrabarty](https://cse.bracu.ac.bd/faculty_profile/69/dr_amitabha_chakrabarty) (Professor) & [Dewan Ziaul Karim](https://cse.bracu.ac.bd/faculty_profile/63/dewan_ziaul_karim) (Senior Lecturer)  
 - Formulated a machine-learning framework designed to support depression and anxiety risk assessment among rural Bangladeshi women utilizing both vocal speech and transcribed text features.
@@ -51,22 +66,12 @@ Computer Science and Engineering graduate from BRAC University (CGPA 3.50/4.00, 
 
 ## PROFESSIONAL EXPERIENCE
 
-### Full Stack Web Developer — AlgoVerse
-*Dhaka, Bangladesh* | *February 4, 2026 – August 10, 2026*
-- Architected and engineered full-stack web and mobile applications leveraging React, Next.js, React Native, TypeScript, Node.js, and PostgreSQL/MongoDB.
-- Engineered robust RESTful backend APIs, complex database queries, and modular UI components, optimizing frontend loading times and data retrieval performance.
-- Spearheaded end-to-end development cycles across multi-client commercial platforms, handling responsive UI implementation, server-side logic, and third-party integrations.
-
-### Junior Full Stack Web Developer — Zentorra
-*Dhaka, Bangladesh* | *August 7, 2025 – January 29, 2026*
-- Constructed responsive client-facing web interfaces using React and modern CSS architectures, integrating with Node.js / Express backend endpoints.
-- Designed scalable data schemas in MongoDB with Mongoose; performed rigorous API validation and integration testing using Postman.
-- Collaborated in fast-paced sprint cycles to deliver functional web applications meeting strict client performance and accessibility guidelines.
-
 ### Web Development Intern — GAOTek Inc.
-*Remote* | *January 22, 2024 – April 22, 2024*
-- Conducted enterprise web page performance optimization and responsive user-interface redesigns for high-traffic corporate portals.
-- Implemented frontend features and bug fixes across WordPress environments utilizing HTML5, CSS3, JavaScript, and Git version control within an international distributed team.
+*Remote (New York, USA)* | *January 22, 2024 – April 22, 2024*
+- Optimized and maintained enterprise web pages on WordPress CMS, improving page load performance and responsive rendering across desktop, tablet, and mobile viewports.
+- Developed reusable frontend UI components and responsive page layouts utilizing HTML5, CSS3, JavaScript, and Bootstrap, adhering to web accessibility (WCAG) standards.
+- Applied SEO best practices and image/asset optimization techniques, contributing to measurable improvements in search engine visibility and Core Web Vitals scores.
+- Collaborated with a cross-functional international team using Git version control and agile workflows, participating in code reviews, sprint planning, and iterative deployment cycles.
 
 ---
 
