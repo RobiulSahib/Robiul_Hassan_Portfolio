@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, BookOpen, Calendar, GraduationCap, MapPin } from 'lucide-react';
+import { Award, BookOpen, Calendar, GraduationCap, Headphones, BookOpenCheck, Mic, PenTool, MapPin } from 'lucide-react';
 import { profileData } from '../data/profile';
 
 export default function Education() {
@@ -94,6 +94,89 @@ export default function Education() {
                   <span className="edu-cgpa-label">Grade Point Average (GPA)</span>
                   <span className="edu-cgpa-val">{profileData.secondaryEducation.gpa}</span>
                   <span className="edu-cgpa-scale">Grading Scale: 5.00 Max (Science Group)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Secondary School Certificate (SSC) */}
+        {profileData.sscEducation && (
+          <div className="education-card" style={{ marginTop: '24px' }}>
+            <div className="edu-header">
+              <div className="edu-icon-box">
+                <GraduationCap size={28} />
+              </div>
+              <div className="edu-titles">
+                <h3 className="edu-degree">{profileData.sscEducation.degree}</h3>
+                <p className="edu-inst">
+                  {profileData.sscEducation.institution} • {profileData.sscEducation.board}
+                </p>
+              </div>
+              <div className="edu-dates">
+                <Calendar size={15} />
+                <span>{profileData.sscEducation.period}</span>
+              </div>
+            </div>
+
+            <div className="edu-body">
+              <div className="edu-metrics-row">
+                <div className="edu-cgpa-box">
+                  <span className="edu-cgpa-label">Grade Point Average (GPA)</span>
+                  <span className="edu-cgpa-val">{profileData.sscEducation.gpa}</span>
+                  <span className="edu-cgpa-scale">Grading Scale: 5.00 Max (Science Group)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* IELTS Academic Test Score */}
+        {profileData.ielts && (
+          <div className="education-card" style={{ marginTop: '24px' }}>
+            <div className="edu-header">
+              <div className="edu-icon-box">
+                <BookOpenCheck size={28} />
+              </div>
+              <div className="edu-titles">
+                <h3 className="edu-degree">{profileData.ielts.testName}</h3>
+                <p className="edu-inst">
+                  Test Date: {profileData.ielts.testDate} • Result Date: {profileData.ielts.resultDate}
+                </p>
+              </div>
+              <div className="edu-dates">
+                <Calendar size={15} />
+                <span>Overall Band: {profileData.ielts.overallBand}</span>
+              </div>
+            </div>
+
+            <div className="edu-body">
+              <div className="edu-metrics-row">
+                <div className="edu-cgpa-box">
+                  <span className="edu-cgpa-label">Overall Band Score</span>
+                  <span className="edu-cgpa-val">{profileData.ielts.overallBand}</span>
+                  <span className="edu-cgpa-scale">CEFR Level: C1 (Competent User)</span>
+                </div>
+              </div>
+
+              <div className="coursework-section">
+                <h4 className="coursework-title">
+                  <BookOpen size={16} />
+                  Module Scores
+                </h4>
+                <div className="coursework-grid">
+                  <span className="course-chip" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <Headphones size={14} /> Listening: {profileData.ielts.scores.listening}
+                  </span>
+                  <span className="course-chip" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <BookOpenCheck size={14} /> Reading: {profileData.ielts.scores.reading}
+                  </span>
+                  <span className="course-chip" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <PenTool size={14} /> Writing: {profileData.ielts.scores.writing}
+                  </span>
+                  <span className="course-chip" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <Mic size={14} /> Speaking: {profileData.ielts.scores.speaking}
+                  </span>
                 </div>
               </div>
             </div>
