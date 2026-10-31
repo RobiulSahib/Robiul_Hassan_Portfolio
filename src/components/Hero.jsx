@@ -88,9 +88,9 @@ export default function Hero() {
             <span className="metric-sublabel">Multilingual E5 + Linear SVM</span>
           </div>
           <div className="metric-box">
-            <span className="metric-value">3</span>
-            <span className="metric-label">Professional Roles</span>
-            <span className="metric-sublabel">AlgoVerse, Zentorra, GAOTek</span>
+            <span className="metric-value">1</span>
+            <span className="metric-label">Industry Internship</span>
+            <span className="metric-sublabel">GAOTek Inc. (Canada)</span>
           </div>
           <div className="metric-box">
             <span className="metric-value">Defended</span>

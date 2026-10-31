@@ -11,7 +11,7 @@ export default function Experience() {
           <span className="section-eyebrow">Industry Track Record</span>
           <h2 className="section-title">Professional Experience</h2>
           <p className="section-subtitle">
-            Hands-on software development experience across client agencies and corporate internship.
+            Hands-on software development experience through an international web development internship.
           </p>
         </div>
 

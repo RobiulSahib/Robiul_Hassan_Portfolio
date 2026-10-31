@@ -26,7 +26,7 @@ export default function About() {
               {profileData.summary}
             </p>
             <p className="about-paragraph">
-              My academic journey has balanced theoretical rigor with applied problem-solving. Through my undergraduate thesis, I developed machine learning pipelines handling complex acoustic and linguistic data for rural healthcare screening. Concurrently, my professional experience across software firms instilled robust software engineering habits—writing type-safe code, designing relational and document schemas, and deploying microservices.
+              My academic journey has balanced theoretical rigor with applied problem-solving. Through my undergraduate thesis, I developed machine learning pipelines handling complex acoustic and linguistic data for rural healthcare screening. Concurrently, my internship experience and personal projects instilled robust software engineering habits—writing clean code, designing relational and document schemas, and building responsive web applications.
             </p>
 
             <div className="about-highlights-list">
@@ -45,7 +45,7 @@ export default function About() {
               <div className="about-highlight-item">
                 <CheckCircle2 size={18} className="highlight-icon" />
                 <div>
-                  <strong>Production Software Engineering:</strong> Built and shipped scalable client platforms using React, Next.js, TypeScript, Node.js, and PostgreSQL across two software agencies.
+                  <strong>Production Software Engineering:</strong> Completed a web development internship at GAOTek Inc. and built multiple full-stack software projects using React, Next.js, TypeScript, Node.js, and PostgreSQL.
                 </div>
               </div>
             </div>
