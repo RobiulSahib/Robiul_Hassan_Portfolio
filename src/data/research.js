@@ -1,5 +1,5 @@
 export const researchData = {
-  title: "A System to Support Mental Health of Rural Women",
+  title: "A Multimodal System to Support the Mental Health of Rural Woman",
   status: "Defended",
   period: "May 2025 – August 2026",
   institution: "Department of Computer Science and Engineering, BRAC University",
